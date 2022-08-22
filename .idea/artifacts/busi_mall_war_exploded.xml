@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="busi-mall:war exploded">
+    <output-path>$PROJECT_DIR$/busi-mall/target/busi-mall-1.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>busi-mall</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="busi-mall" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="busi-api-1.0.jar">
+            <element id="module-output" name="busi-api" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.30" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.5" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-framework:2.13.0" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-client:2.13.0" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.8" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:16.0.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.6" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.32.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/busi-mall/target/busi-mall-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="busi-mall/web/Web" />
+    </root>
+  </artifact>
+</component>

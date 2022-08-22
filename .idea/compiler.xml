@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="busi-mvc" />
+        <module name="busi-api" />
+        <module name="busi-xml-server-client" />
+        <module name="busi-mall" />
+        <module name="base-rpc-consumer" />
+        <module name="base-rpc-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-rpc-consumer" target="1.8" />
+      <module name="base-rpc-provider" target="1.8" />
+      <module name="busi-api" target="1.8" />
+      <module name="busi-mall" target="1.8" />
+      <module name="busi-mvc" target="1.8" />
+      <module name="busi-xml-server-client" target="1.8" />
+      <module name="dubbo-basic" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

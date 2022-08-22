@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-rpc-consumer/base-rpc-consumer.iml" filepath="$PROJECT_DIR$/base-rpc-consumer/base-rpc-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-rpc-provider/base-rpc-provider.iml" filepath="$PROJECT_DIR$/base-rpc-provider/base-rpc-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busi-api/busi-api.iml" filepath="$PROJECT_DIR$/busi-api/busi-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busi-mall/busi-mall.iml" filepath="$PROJECT_DIR$/busi-mall/busi-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busi-mvc/busi-mvc.iml" filepath="$PROJECT_DIR$/busi-mvc/busi-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busi-xml-server-client/busi-xml-server-client.iml" filepath="$PROJECT_DIR$/busi-xml-server-client/busi-xml-server-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-basic.iml" filepath="$PROJECT_DIR$/dubbo-basic.iml" />
+    </modules>
+  </component>
+</project>
